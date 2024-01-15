@@ -41,17 +41,22 @@ article{
     width: 1000px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: table;
-    
+    display: flex;
     font-size: smaller;
     text-align: justify;
-    
+
 }
 article p{
-
+    margin-top: 15%;
     border: solid 0.5px rgba(0, 0, 0, 0.241);
     border-radius: 5px;
     width: 190px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 310px;
+    align-items: center;
+    padding: 10px;
+    display: table;
+    
+}
+article div{
+    margin: auto;
 }
