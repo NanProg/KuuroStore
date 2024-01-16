@@ -39,6 +39,7 @@ article{
     margin-top: 1%;
     background: white;
     width: 1000px;
+    height: fit-content;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
@@ -59,4 +60,17 @@ article p{
 }
 article div{
     margin: auto;
+}
+
+section div{
+    margin-top: 1%;
+    float: right;
+    background: white;
+    width: 240px;
+    font-size: smaller;
+    text-align: center;
+}
+section ol{
+    list-style: none;
+    text-align: justify;
 }
