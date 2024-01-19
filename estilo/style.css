@@ -20,6 +20,7 @@ header img{
     position: relative;
     left: 5%;
 }
+
 header h1{
     position: relative;
     left: 6%;
@@ -64,6 +65,10 @@ article li{
     padding: 10px;
     display: table;
 }
+article li:hover{
+    transition: 1s all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.229);
+}
 article div{
     margin: auto;
 }
@@ -94,6 +99,10 @@ section li{
     margin: auto;
     margin-top: 8%;
 }
+section li:hover{
+    transition: 1s all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.21);
+}
 section img{
     margin: auto;
     margin-top: 5%;
@@ -114,4 +123,5 @@ footer{
     display: flex;
     align-items: center;
     margin-top: 1%;
+    justify-content: center;
 }
