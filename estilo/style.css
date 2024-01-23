@@ -20,6 +20,10 @@ header img{
     position: relative;
     left: 5%;
 }
+header img:hover {
+    transition: 1.2s all;
+    transform: rotate(10deg);
+}
 
 header h1{
     position: relative;
