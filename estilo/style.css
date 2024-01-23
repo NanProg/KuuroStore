@@ -34,10 +34,17 @@ header div{
     padding-right: 5px;
     align-items: center;
 }
+header a {
+    text-decoration: none;
+    color: black;
+}
 header div:hover{
     transition: 0.5s all;
     background: rgb(48, 48, 255);
     border-radius: 2px;
+}
+header a:hover {
+    transition: 0.5s all;
     color: white;
 }
 
@@ -52,6 +59,8 @@ article{
     display: flex;
     font-size: smaller;
     text-align: justify;
+    align-items: center;
+    justify-content: flex-end;
 
 }
 article li{
@@ -60,10 +69,10 @@ article li{
     border: solid 0.5px rgba(0, 0, 0, 0.241);
     border-radius: 5px;
     width: 190px;
-    height: 310px;
+    height: 350px;
     align-items: center;
-    padding: 10px;
-    display: table;
+    padding: 20px;
+    display: flex;
 }
 article li:hover{
     transition: 1s all;
