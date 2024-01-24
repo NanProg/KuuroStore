@@ -22,7 +22,7 @@ header img{
 }
 header img:hover {
     transition: 1.2s all;
-    transform: rotate(10deg);
+    transform: rotate(25deg);
 }
 
 header h1{
